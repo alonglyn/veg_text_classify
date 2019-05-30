@@ -37,27 +37,49 @@ keras 文本情感分类
 # 目录树以及关键的数据
 
 ├── article
+
 │   ├── all.xlsx
-│   └── sample.csv													//待预测文章采样
+
+│   └── sample.csv	//待预测文章采样
+
 ├── corpus
+
 │   ├── corpus.csv													//语料库、有标注训练集
+
 │   ├── stopwords.txt											//停用词
+
 │   ├── word2vec													//word2vec的语料库， 可以将all.xlsx的数据一并拿来训练
+
 │   ├── 负向														//抽取的正向文本
+
 │   └── 正向														//抽取的负向文本
+
 ├── data_help.py
+
 ├── example.csv
+
 ├── model
+
 │   ├── checkpoint
+
 │   ├── checkpoints.data-00000-of-00001
+
 │   ├── checkpoints.index
+
 │   ├── veg_lstm.data-00000-of-00001				//预测模型
+
 │   ├── veg_lstm.index
+
 │   └── vocab															//词表、第一次使用vegdb的时候需要提供corpus构建。
+
 ├── predict.py														//加载模型进行预测， 示例结果存放在example.csv里
+
 ├── README.md
+
 ├── train_lstm.py													//lstm训练模型， 训练数据路径、参数在代码里面改
+
 └── train_wordvec_model.py                               //预训练词向量（这里没有使用）
+
 
 
 
