@@ -1,6 +1,6 @@
 numpy==1.16.1
 tensorboard==1.13.1
-tensorflow-gpu==2.0.0a0
+tensorflow-gpu==2.7.2
 tensorflow-tensorboard==0.1.8
 xlrd==1.2.0
 XlsxWriter==1.0.2
